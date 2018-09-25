@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.view.biz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfitAndLossActivity"
+            android:label="Profit Loss" />
+        <activity
+            android:name=".DayBookActivity"
+            android:label="Day Book " />
+        <activity
+            android:name=".ReportsActivity"
+            android:label="Reports " />
+        <activity
+            android:name=".DashboardActivity"
+            android:label="Dashboard " />
+        <activity
+            android:name=".CashBalenceActivity"
+            android:label="Cash Balence " />
+        <activity
+            android:name=".ReceivableActivity"
+            android:label="Receivable" />
+        <activity
+            android:name=".PayableActivity"
+            android:label="Payable" />
+        <activity
+            android:name=".SalesCreditNoteActivity"
+            android:label="Sales" />
+        <activity android:name=".PurchaseDebitNoteActivity" />
+        <activity android:name=".ItemActivity" />
+        <activity android:name=".LedgerPartyActivity" />
+        <activity android:name=".SalesRegisterActivity" />
+        <activity android:name=".ReceiptActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".InactiveItemsActivity" />
+        <activity android:name=".LedgerReportActivity" />
+        <activity android:name=".ExpensesActivity"></activity>
+    </application>
+
+</manifest>
